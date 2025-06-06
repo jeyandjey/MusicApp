@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pop"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <!-- Música 1 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smells Like Teen Spirit"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image1"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image1" />
+
+            <TextView
+                android:id="@+id/artist1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nirvana"
+                android:textSize="14sp"
+                android:layout_below="@id/song1"
+                android:layout_alignStart="@id/song1" />
+        </RelativeLayout>
+
+        <!-- Música 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bohemian Rhapsody"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image2"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image2" />
+
+            <TextView
+                android:id="@+id/artist2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queen"
+                android:textSize="14sp"
+                android:layout_below="@id/song2"
+                android:layout_alignStart="@id/song2" />
+        </RelativeLayout>
+
+        <!-- Música 3 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back In Black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image3"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image3" />
+
+            <TextView
+                android:id="@+id/artist3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC/DC"
+                android:textSize="14sp"
+                android:layout_below="@id/song3"
+                android:layout_alignStart="@id/song3" />
+        </RelativeLayout>
+
+        <!-- Música 4 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel California"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image4"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image4" />
+
+            <TextView
+                android:id="@+id/artist4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eagles"
+                android:textSize="14sp"
+                android:layout_below="@id/song4"
+                android:layout_alignStart="@id/song4" />
+        </RelativeLayout>
+
+        <!-- Música 5 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweet Child O' Mine"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image5"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image5" />
+
+            <TextView
+                android:id="@+id/artist5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guns N' Roses"
+                android:textSize="14sp"
+                android:layout_below="@id/song5"
+                android:layout_alignStart="@id/song5" />
+        </RelativeLayout>
+
+        <!-- Música 6 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#EEEEEE"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rock6"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/song6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Sandman"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/image6"
+                android:layout_marginStart="16dp"
+                android:layout_alignTop="@id/image6" />
+
+            <TextView
+                android:id="@+id/artist6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metallica"
+                android:textSize="14sp"
+                android:layout_below="@id/song6"
+                android:layout_alignStart="@id/song6" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
